@@ -1,0 +1,2 @@
+4bc12725bee4b5c1d80021a0aa357bc56bdd17908350942d3683abcc59038028  auralis-0.1.0-debug.apk
+ed5e439844bb369757685e3e115108911c97df4aaf9a1b883a3cc7a7bded24a0  auralis-0.1.0-release-unsigned.apk

@@ -1,0 +1,23 @@
+Built Auralis 0.1.0, a development preview with local playback, background media controls, playlists, offline recommendations, privacy controls, and IEM profiles.
+
+  Validation: 16 unit tests, 20 Android tests, and 2 tablet tests passed. Process-death restoration passed. Lint: 0 errors, 1 warning. Both APKs have no Internet
+  permission.
+
+  Files:
+
+  - Installable debug APK (artifacts/auralis-0.1.0-debug.apk)
+  - Unsigned release APK (artifacts/auralis-0.1.0-release-unsigned.apk)
+  - Android Studio source ZIP (artifacts/auralis-0.1.0-source.zip)
+  - Test report and checksums (docs/TEST_REPORT.md)
+
+  Install from PowerShell:
+
+  cd D:\AndroidProjects\Auralis
+  . .\scripts\env.ps1
+  adb install -r .\artifacts\auralis-0.1.0-debug.apk
+
+  Production signing and physical USB validation remain outstanding. Advanced EQ, crossfade, adaptive artwork colors, and embedded/synchronized lyrics have documented
+  limitations (docs/KNOWN_LIMITATIONS.md).
+
+  Best next step: install on your OnePlus Nord 2 and follow the USB/IEM checklist (docs/HARDWARE_TESTS.md), especially unplugging during playback, speaker leakage, and
+  safe reconnection.

@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuites tests="20" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-09-13T11:04:36" hostname="localhost">
+  <testsuite name="com.auralis.player.AudioProcessorTest" tests="2" failures="0" errors="0" skipped="0" time="0.000" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="directCopiesPcmAndEmptyDrainDoesNotCrash" classname="com.auralis.player.AudioProcessorTest" time="0.000" />
+    <testcase name="enhancedBalanceAndLimiterBoundOutput" classname="com.auralis.player.AudioProcessorTest" time="0.000" />
+  </testsuite>
+  <testsuite name="com.auralis.player.DatabaseTest" tests="2" failures="0" errors="0" skipped="0" time="0.036" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="historyCanBeForgottenAndCleared" classname="com.auralis.player.DatabaseTest" time="0.000" />
+    <testcase name="upsertIsIdempotentAndQueuePersists" classname="com.auralis.player.DatabaseTest" time="0.036" />
+  </testsuite>
+  <testsuite name="com.auralis.player.ImportSafetyTest" tests="2" failures="0" errors="0" skipped="0" time="0.066" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="presetRoundTripAndMalformedImportAreSafe" classname="com.auralis.player.ImportSafetyTest" time="0.000" />
+    <testcase name="backupMergeIsIdempotentAndDoesNotImportStorage" classname="com.auralis.player.ImportSafetyTest" time="0.066" />
+  </testsuite>
+  <testsuite name="com.auralis.player.MediaSessionIntegrationTest" tests="1" failures="0" errors="0" skipped="0" time="6.097" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="backgroundServiceNotificationMediaButtonAndQueue" classname="com.auralis.player.MediaSessionIntegrationTest" time="6.097" />
+  </testsuite>
+  <testsuite name="com.auralis.player.MigrationTest" tests="1" failures="0" errors="0" skipped="0" time="1.202" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="versionOneRetainsSettingsAndAddsMood" classname="com.auralis.player.MigrationTest" time="1.202" />
+  </testsuite>
+  <testsuite name="com.auralis.player.NavigationTest" tests="1" failures="0" errors="0" skipped="0" time="5.556" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="firstRunAndSearchHaveAccessibleActions" classname="com.auralis.player.NavigationTest" time="5.556" />
+  </testsuite>
+  <testsuite name="com.auralis.player.PlaybackIntegrationTest" tests="8" failures="0" errors="0" skipped="0" time="11.458" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="generatedOpusDecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="2.293" />
+    <testcase name="generatedHighRateFlacDecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="1.701" />
+    <testcase name="generatedVorbisDecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="1.325" />
+    <testcase name="generatedMp3DecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="1.300" />
+    <testcase name="generatedWavDecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="1.190" />
+    <testcase name="alacPlaysOrReportsUnsupportedDecoder" classname="com.auralis.player.PlaybackIntegrationTest" time="1.044" />
+    <testcase name="generatedFlacDecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="1.253" />
+    <testcase name="generatedAacDecodesSeeksAndEnds" classname="com.auralis.player.PlaybackIntegrationTest" time="1.352" />
+  </testsuite>
+  <testsuite name="com.auralis.player.ProcessRestoreTest" tests="1" failures="0" errors="0" skipped="0" time="0.335" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="restoresCheckpointPaused" classname="com.auralis.player.ProcessRestoreTest" time="0.335" />
+  </testsuite>
+  <testsuite name="com.auralis.player.ProductUiTest" tests="1" failures="0" errors="0" skipped="0" time="11.991" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="queuePlaylistThemesAndPrivacyReset" classname="com.auralis.player.ProductUiTest" time="11.991" />
+  </testsuite>
+  <testsuite name="com.auralis.player.ScannerIntegrationTest" tests="1" failures="0" errors="0" skipped="0" time="0.239" timestamp="2026-09-13T11:04:36" hostname="localhost">
+    <properties>
+      <property name="device" value="emulator-5554" />
+    </properties>
+    <testcase name="scanMoveDuplicateDeleteAndProviderFailure" classname="com.auralis.player.ScannerIntegrationTest" time="0.239" />
+  </testsuite>
+</testsuites>

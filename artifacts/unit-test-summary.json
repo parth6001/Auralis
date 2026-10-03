@@ -1,0 +1,20 @@
+[
+    {
+        "name":  "com.auralis.player.AudioRulesTest",
+        "tests":  5,
+        "errors":  0,
+        "failures":  0
+    },
+    {
+        "name":  "com.auralis.player.LibraryRulesTest",
+        "tests":  4,
+        "errors":  0,
+        "failures":  0
+    },
+    {
+        "name":  "com.auralis.player.RecommendationsTest",
+        "tests":  7,
+        "errors":  0,
+        "failures":  0
+    }
+]
